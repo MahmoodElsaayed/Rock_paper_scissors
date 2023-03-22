@@ -30,12 +30,12 @@ class Game:
             or (self.player_pick == "scissors" and self.computer_pick == "paper")
         ):
             Game.player_score += 1
-            return "Player win!!!"
+            return "Player wins!!!"
         elif self.player_pick == self.computer_pick:
             return "It's a draw!!!"
         else:
             Game.computer_score += 1
-            return "Computer win!!!"
+            return "Computer wins!!!"
 
     def __str__(self):
         return (
