@@ -18,3 +18,14 @@ The code defines a Game class that encapsulates the logic of the game. The class
   The main function creates an instance of the Game class and starts the game loop.
 
   The code uses the emoji library to display emojis representing the game picks, and the sys library to exit the program when the user chooses to quit. The choice function from the random library is used to generate the computer's pick.
+
+
+example to what gets displayed in the console: 
+
+Pick: rock
+[ Your pick: 🧱 ]  x  [ Computer pick: 📄 ]
+[ Winner: Computer wins!!! ]
+[ Your score: 0 ]  x  [ Computer score: 1 ]
+
+Play again?
+Yes or no?
